@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAFFE GEN Z — Kontak</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Lewati ke konten</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="index.html" aria-label="CAFFE GEN Z">
+        <span class="brand-mark" aria-hidden="true">☕</span>
+        <span>
+          CAFFE <span class="brand-genz">GEN Z</span>
+          <div class="brand-sub">your space</div>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navigasi">
+        <a href="index.html#promo">Promo</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Kontak</a>
+      </nav>
+
+      <button class="nav-toggle" type="button" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Kontak / Order (placeholder)</h1>
+        <p class="muted">Form ini untuk tampilan tugas. Data tidak terkirim ke server.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="two-col gap-lg">
+          <div>
+            <div class="section-title">Tanya atau order</div>
+            <form class="form" id="contactForm">
+              <label>
+                Nama
+                <input name="name" type="text" required placeholder="Isi nama kamu" />
+              </label>
+              <label>
+                WhatsApp
+                <input name="whatsapp" type="tel" placeholder="08xxxxxxxxxx" />
+              </label>
+              <label>
+                Pilih kebutuhan
+                <select name="need" required>
+                  <option value="order">Order</option>
+                  <option value="tanya">Tanya</option>
+                  <option value="promo">Info promo</option>
+                </select>
+              </label>
+              <label>
+                Pesan
+                <textarea name="message" rows="5" required placeholder="Tulis menu yang kamu mau + detailnya (masih placeholder)."></textarea>
+              </label>
+              <button class="btn primary" type="submit">Kirim pesan</button>
+              <p class="muted small">*Untuk keperluan demo/tampilan materi.</p>
+            </form>
+          </div>
+
+          <aside class="side-panel" aria-label="Info kontak">
+            <div class="side-panel-title">Info (placeholder)</div>
+            <div class="side-item">
+              <div class="side-key">Email</div>
+              <div class="side-val">caffe.gen.z@example.com</div>
+            </div>
+            <div class="side-item">
+              <div class="side-key">Instagram</div>
+              <div class="side-val">@caffe.gen.z</div>
+            </div>
+            <div class="side-item">
+              <div class="side-key">Lokasi</div>
+              <div class="side-val">(tulis alamat)</div>
+            </div>
+
+            <div class="side-divider" aria-hidden="true"></div>
+
+            <div class="side-cta">
+              <div class="side-cta-icon" aria-hidden="true">💬</div>
+              <div>
+                <div class="side-cta-title">Tip cepat</div>
+                <div class="muted">Kamu bisa isi pesan seperti: “1x Gen Z Matcha Latte, ice, medium, tanpa gula (placeholder)”</div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-divider">
+      <div class="container divider-inner">
+        <div class="divider-left">
+          <h2>your space</h2>
+          <p class="muted">Pilih menu → isi form → selesaikan vibe kamu.</p>
+        </div>
+        <div class="divider-right">
+          <a class="btn primary" href="menu.html">Lihat Menu</a>
+          <a class="btn ghost" href="index.html#promo">Cek Promo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">CAFFE GEN Z</div>
+        <p class="muted">Promosi produk kopi dengan vibes Gen Z dan desain neon aesthetic.</p>
+      </div>
+
+      <div>
+        <div class="footer-title">Anggota Kelompok 5</div>
+        <ul class="footer-list">
+          <li>Amanda purnama putri</li>
+          <li>Zaskia augustina</li>
+          <li>Anglia tiara komaisiah</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-title">Link</div>
+        <div class="footer-links">
+          <a href="index.html#promo">Promo</a>
+          <a href="menu.html">Menu</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Kontak</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© <span id="year"></span> CAFFE GEN Z. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
