@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAFFE GEN Z — Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Lewati ke konten</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="index.html" aria-label="CAFFE GEN Z">
+        <span class="brand-mark" aria-hidden="true">☕</span>
+        <span>
+          CAFFE <span class="brand-genz">GEN Z</span>
+          <div class="brand-sub">your space</div>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navigasi">
+        <a href="index.html#promo">Promo</a>
+        <a class="active" href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+
+      <button class="nav-toggle" type="button" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Menu CAFFE GEN Z</h1>
+        <p class="muted">Pilih vibe kamu. Klik “Lihat Detail” buat deskripsi rasa, komposisi, pilihan ukuran, dan kisaran harga.</p>
+
+        <div class="menu-toolbar" role="region" aria-label="Filter menu">
+          <div class="search">
+            <label>
+              <span class="sr-only">Cari menu</span>
+              <input id="menuSearch" type="search" placeholder="Cari: latte, matcha, cold..." />
+            </label>
+          </div>
+          <div class="chips" id="chips" aria-label="Kategori">
+            <button type="button" class="chip is-active" data-chip="all">Semua</button>
+            <button type="button" class="chip" data-chip="ice">Ice</button>
+            <button type="button" class="chip" data-chip="hot">Hot</button>
+            <button type="button" class="chip" data-chip="signature">Signature</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-3" id="menuGrid">
+          <!-- Item placeholder -->
+          <article class="menu-card" data-type="ice signature" data-name="Gen Z Matcha Latte">
+
+            <div class="menu-card-media" aria-hidden="true">
+              <div class="menu-sheen"></div>
+              <div class="menu-emoji">🧋</div>
+            </div>
+            <div class="menu-card-body">
+              <h2>Gen Z Matcha Latte</h2>
+              <p class="muted">Ice · Medium · (placeholder)</p>
+              <div class="menu-tags">
+                <span class="tag">Ice</span>
+                <span class="tag neon">Signature</span>
+              </div>
+              <button class="btn primary small" type="button" data-action="detail" data-title="Gen Z Matcha Latte">Lihat Detail</button>
+            </div>
+          </article>
+
+          <article class="menu-card" data-type="ice" data-name="Strawberry Neon Frappe">
+            <div class="menu-card-media" aria-hidden="true">
+              <div class="menu-sheen"></div>
+              <div class="menu-emoji">🍓</div>
+            </div>
+            <div class="menu-card-body">
+              <h2>Strawberry Neon Frappe</h2>
+              <p class="muted">Ice · Medium · (placeholder)</p>
+              <div class="menu-tags">
+                <span class="tag">Ice</span>
+                <span class="tag neon">Gen vibe</span>
+              </div>
+              <button class="btn primary small" type="button" data-action="detail" data-title="Strawberry Neon Frappe">Lihat Detail</button>
+            </div>
+          </article>
+
+          <article class="menu-card" data-type="hot signature" data-name="Coffee Chill Serius">
+            <div class="menu-card-media" aria-hidden="true">
+              <div class="menu-sheen"></div>
+              <div class="menu-emoji">☕</div>
+            </div>
+            <div class="menu-card-body">
+              <h2>Coffee Chill Serius</h2>
+              <p class="muted">Hot · Medium · (placeholder)</p>
+              <div class="menu-tags">
+                <span class="tag">Hot</span>
+                <span class="tag neon">Signature</span>
+              </div>
+              <button class="btn primary small" type="button" data-action="detail" data-title="Coffee Chill Serius">Lihat Detail</button>
+            </div>
+          </article>
+
+          <article class="menu-card" data-type="hot" data-name="Cinnamon Cream Coffee">
+            <div class="menu-card-media" aria-hidden="true">
+              <div class="menu-sheen"></div>
+              <div class="menu-emoji">🍯</div>
+            </div>
+            <div class="menu-card-body">
+              <h2>Cinnamon Cream Coffee</h2>
+              <p class="muted">Hot · Medium · (placeholder)</p>
+              <div class="menu-tags">
+                <span class="tag">Hot</span>
+                <span class="tag neon">Cozy</span>
+              </div>
+              <button class="btn primary small" type="button" data-action="detail" data-title="Cinnamon Cream Coffee">Lihat Detail</button>
+            </div>
+          </article>
+
+          <article class="menu-card" data-type="ice" data-name="Taro Dream Cloud">
+            <div class="menu-card-media" aria-hidden="true">
+              <div class="menu-sheen"></div>
+              <div class="menu-emoji">🌙</div>
+            </div>
+            <div class="menu-card-body">
+              <h2>Taro Dream Cloud</h2>
+              <p class="muted">Ice · Medium · (placeholder)</p>
+              <div class="menu-tags">
+                <span class="tag">Ice</span>
+                <span class="tag neon">Dreamy</span>
+              </div>
+              <button class="btn primary small" type="button" data-action="detail" data-title="Taro Dream Cloud">Lihat Detail</button>
+            </div>
+          </article>
+
+          <article class="menu-card" data-type="ice signature" data-name="Matcha Pop Chill">
+            <div class="menu-card-media" aria-hidden="true">
+              <div class="menu-sheen"></div>
+              <div class="menu-emoji">💚</div>
+            </div>
+            <div class="menu-card-body">
+              <h2>Matcha Pop Chill</h2>
+              <p class="muted">Ice · Medium · (placeholder)</p>
+              <div class="menu-tags">
+                <span class="tag">Ice</span>
+                <span class="tag neon">Signature</span>
+              </div>
+              <button class="btn primary small" type="button" data-action="detail" data-title="Matcha Pop Chill">Lihat Detail</button>
+            </div>
+          </article>
+        </div>
+
+        <div class="empty" id="menuEmpty" hidden>
+          <div class="empty-emoji" aria-hidden="true">🫥</div>
+          <h3>Tidak ada menu yang cocok</h3>
+          <p class="muted">Coba kata kunci lain atau ganti kategori.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-divider">
+      <div class="container divider-inner">
+        <div class="divider-left">
+          <h2>your space, tapi ngopi.</h2>
+          <p class="muted">Kalau sudah siap, lanjut ke halaman kontak untuk order/tanya (placeholder).</p>
+        </div>
+        <div class="divider-right">
+          <a class="btn primary" href="contact.html">Order / Tanya</a>
+          <a class="btn ghost" href="about.html">About</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">CAFFE GEN Z</div>
+        <p class="muted">Promosi produk kopi dengan vibes Gen Z dan desain neon aesthetic.</p>
+      </div>
+
+      <div>
+        <div class="footer-title">Anggota Kelompok 5</div>
+        <ul class="footer-list">
+          <li>Amanda purnama putri</li>
+          <li>Zaskia augustina</li>
+          <li>Anglia tiara komaisiah</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-title">Link</div>
+        <div class="footer-links">
+          <a href="index.html#promo">Promo</a>
+          <a href="menu.html">Menu</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Kontak</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© <span id="year"></span> CAFFE GEN Z. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-head">
+        <div>
+          <div class="modal-kicker">Detail menu</div>
+          <h2 class="modal-title" id="modalTitle">Detail menu</h2>
+        </div>
+        <button class="icon-btn" type="button" id="modalClose" aria-label="Tutup">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="muted" id="modalText">
+          Konten detail masih tahap penambahan materi.
+          (Misal: deskripsi rasa, komposisi, ukuran, dan harga)
+        </p>
+        <div class="modal-actions">
+          <a class="btn primary" href="contact.html">Tanya via Kontak</a>
+          <button class="btn ghost" type="button" id="modalOk">Oke</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
