@@ -60,7 +60,9 @@
 
     <section class="section">
       <div class="container">
-        <div class="grid-3" id="menuGrid">
+        <div class="two-col" style="grid-template-columns: 1fr 0.85fr;">
+          <div>
+            <div class="grid-3" id="menuGrid">
           <!-- Item placeholder -->
           <article class="menu-card" data-type="ice signature" data-name="Gen Z Matcha Latte">
 
@@ -70,12 +72,15 @@
             </div>
             <div class="menu-card-body">
               <h2>Gen Z Matcha Latte</h2>
-              <p class="muted">Ice · Medium · (placeholder)</p>
+              <p class="muted">Ice · Medium · </p>
               <div class="menu-tags">
                 <span class="tag">Ice</span>
                 <span class="tag neon">Signature</span>
               </div>
-              <button class="btn primary small" type="button" data-action="detail" data-title="Gen Z Matcha Latte">Lihat Detail</button>
+              <div class="cta-row" style="margin-top: 6px;">
+                <button class="btn ghost small" type="button" data-action="detail" data-title="Gen Z Matcha Latte">Lihat Detail</button>
+                <button class="btn primary small" type="button" data-action="addOrder" data-title="Gen Z Matcha Latte" data-price-s="18000" data-price-m="23000">Tambah ke pesanan</button>
+              </div>
             </div>
           </article>
 
@@ -85,13 +90,17 @@
               <div class="menu-emoji">🍓</div>
             </div>
             <div class="menu-card-body">
-              <h2>Strawberry Neon Frappe</h2>
-              <p class="muted">Ice · Medium · (placeholder)</p>
+              <h2>Strawberry Frappe</h2>
+              <p class="muted">Ice · Medium · </p>
               <div class="menu-tags">
                 <span class="tag">Ice</span>
                 <span class="tag neon">Gen vibe</span>
               </div>
-              <button class="btn primary small" type="button" data-action="detail" data-title="Strawberry Neon Frappe">Lihat Detail</button>
+          <div class="cta-row" style="margin-top: 6px;">
+                <button class="btn ghost small" type="button" data-action="detail" data-title="Strawberry Frappe">Lihat Detail</button>
+                <button class="btn primary small" type="button" data-action="addOrder" data-title="Strawberry Frappe" data-price-s="20000" data-price-l="28000">Tambah ke pesanan</button>
+              </div>
+
             </div>
           </article>
 
@@ -102,12 +111,15 @@
             </div>
             <div class="menu-card-body">
               <h2>Coffee Chill Serius</h2>
-              <p class="muted">Hot · Medium · (placeholder)</p>
+              <p class="muted">Hot · Medium · </p>
               <div class="menu-tags">
                 <span class="tag">Hot</span>
                 <span class="tag neon">Signature</span>
               </div>
-              <button class="btn primary small" type="button" data-action="detail" data-title="Coffee Chill Serius">Lihat Detail</button>
+              <div class="cta-row" style="margin-top: 6px;">
+                <button class="btn ghost small" type="button" data-action="detail" data-title="Coffee Chill Serius">Lihat Detail</button>
+                <button class="btn primary small" type="button" data-action="addOrder" data-title="Coffee Chill Serius" data-price-s="16000" data-price-m="21000">Tambah ke pesanan</button>
+              </div>
             </div>
           </article>
 
@@ -118,12 +130,15 @@
             </div>
             <div class="menu-card-body">
               <h2>Cinnamon Cream Coffee</h2>
-              <p class="muted">Hot · Medium · (placeholder)</p>
+              <p class="muted">Hot · Medium · </p>
               <div class="menu-tags">
                 <span class="tag">Hot</span>
                 <span class="tag neon">Cozy</span>
               </div>
-              <button class="btn primary small" type="button" data-action="detail" data-title="Cinnamon Cream Coffee">Lihat Detail</button>
+              <div class="cta-row" style="margin-top: 6px;">
+                <button class="btn ghost small" type="button" data-action="detail" data-title="Cinnamon Cream Coffee">Lihat Detail</button>
+                <button class="btn primary small" type="button" data-action="addOrder" data-title="Cinnamon Cream Coffee" data-price-s="17000" data-price-m="22000">Tambah ke pesanan</button>
+              </div>
             </div>
           </article>
 
@@ -134,12 +149,15 @@
             </div>
             <div class="menu-card-body">
               <h2>Taro Dream Cloud</h2>
-              <p class="muted">Ice · Medium · (placeholder)</p>
+              <p class="muted">Ice · Medium · </p>
               <div class="menu-tags">
                 <span class="tag">Ice</span>
                 <span class="tag neon">Dreamy</span>
               </div>
-              <button class="btn primary small" type="button" data-action="detail" data-title="Taro Dream Cloud">Lihat Detail</button>
+              <div class="cta-row" style="margin-top: 6px;">
+                <button class="btn ghost small" type="button" data-action="detail" data-title="Taro Dream Cloud">Lihat Detail</button>
+                <button class="btn primary small" type="button" data-action="addOrder" data-title="Taro Dream Cloud" data-price-s="19000" data-price-l="26000">Tambah ke pesanan</button>
+              </div>
             </div>
           </article>
 
@@ -150,21 +168,43 @@
             </div>
             <div class="menu-card-body">
               <h2>Matcha Pop Chill</h2>
-              <p class="muted">Ice · Medium · (placeholder)</p>
+              <p class="muted">Ice · Medium · </p>
               <div class="menu-tags">
                 <span class="tag">Ice</span>
                 <span class="tag neon">Signature</span>
               </div>
-              <button class="btn primary small" type="button" data-action="detail" data-title="Matcha Pop Chill">Lihat Detail</button>
+              <div class="cta-row" style="margin-top: 6px;">
+                <button class="btn ghost small" type="button" data-action="detail" data-title="Matcha Pop Chill">Lihat Detail</button>
+                <button class="btn primary small" type="button" data-action="addOrder" data-title="Matcha Pop Chill" data-price-s="18000" data-price-m="24000">Tambah ke pesanan</button>
+              </div>
             </div>
           </article>
+            </div>
+
+            <div class="empty" id="menuEmpty" hidden>
+              <div class="empty-emoji" aria-hidden="true">🫥</div>
+              <h3>Tidak ada menu yang cocok</h3>
+              <p class="muted">Coba kata kunci lain atau ganti kategori.</p>
+            </div>
+          </div>
+
+          <aside class="side-panel" aria-label="Ringkasan pesanan">
+            <div class="side-panel-title">Pesanan kamu</div>
+            <div class="muted" style="font-weight: 800; margin-bottom: 10px;">Klik “Tambah ke pesanan” pada menu.</div>
+            <div id="orderItems" style="display:flex; flex-direction:column; gap:10px; margin: 10px 0 14px;">
+            </div>
+            <div class="side-divider" aria-hidden="true"></div>
+            <div class="side-item" style="border-bottom:none; padding: 10px 0 0;">
+              <div class="side-key">Total</div>
+              <div class="side-val" id="orderTotal">Rp 0</div>
+            </div>
+            <div class="side-cta" style="margin-top:14px; justify-content: flex-end;">
+              <button class="btn primary" type="button" id="checkoutBtn2">Checkout</button>
+            </div>
+            <div class="muted small" style="margin-top:10px;">(demo) akan mengarah ke success.html</div>
+          </aside>
         </div>
 
-        <div class="empty" id="menuEmpty" hidden>
-          <div class="empty-emoji" aria-hidden="true">🫥</div>
-          <h3>Tidak ada menu yang cocok</h3>
-          <p class="muted">Coba kata kunci lain atau ganti kategori.</p>
-        </div>
       </div>
     </section>
 
@@ -172,11 +212,17 @@
       <div class="container divider-inner">
         <div class="divider-left">
           <h2>your space, tapi ngopi.</h2>
-          <p class="muted">Kalau sudah siap, lanjut ke halaman kontak untuk order/tanya (placeholder).</p>
+          <p class="muted">Kalau sudah siap, langsung lanjut ke halaman kontak buat order/tanya.</p>
         </div>
+
         <div class="divider-right">
           <a class="btn primary" href="contact.html">Order / Tanya</a>
           <a class="btn ghost" href="about.html">About</a>
+        </div>
+
+        <div class="divider-right" style="justify-content:flex-end; margin-top: 10px; width:100%;">
+          <button class="btn ghost" type="button" id="clearOrder" aria-label="Kosongkan pesanan">Kosongkan pesanan</button>
+          <a class="btn primary" href="success.html" id="checkoutBtn" aria-label="Checkout pesanan">Checkout</a>
         </div>
       </div>
     </section>
@@ -186,15 +232,18 @@
     <div class="container footer-grid">
       <div>
         <div class="footer-brand">CAFFE GEN Z</div>
-        <p class="muted">Promosi produk kopi dengan vibes Gen Z dan desain neon aesthetic.</p>
+        <p class="muted">Promosi produk kopi dengan vibes Gen Z aesthetic.</p>
       </div>
 
-      <div>
+     <div>
         <div class="footer-title">Anggota Kelompok 5</div>
         <ul class="footer-list">
-          <li>Amanda purnama putri</li>
-          <li>Zaskia augustina</li>
-          <li>Anglia tiara komaisiah</li>
+<li>Bunga fitri rohmadani</li>
+          <li>NPM : 24042211009</li>
+          <li>Darma</li>
+          <li>NPM : 24042211012</li>
+          <li>jurina</li>
+          <li>NPM : 24042211026</li>
         </ul>
       </div>
 
@@ -228,9 +277,9 @@
       </div>
       <div class="modal-body">
         <p class="muted" id="modalText">
-          Konten detail masih tahap penambahan materi.
-          (Misal: deskripsi rasa, komposisi, ukuran, dan harga)
+          Deskripsi rasa, komposisi, pilihan ukuran, dan kisaran harga ada di sini—tinggal pilih favorit kamu.
         </p>
+
         <div class="modal-actions">
           <a class="btn primary" href="contact.html">Tanya via Kontak</a>
           <button class="btn ghost" type="button" id="modalOk">Oke</button>
